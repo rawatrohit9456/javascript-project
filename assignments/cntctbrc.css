@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.header{
+    background-color:#00306e;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+   color:white;
+   width: 18vw;
+   display: flex;
+   justify-content: space-evenly
+    
+    
+}
+.headermain{
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    margin-top: -12rem;
+}
+
+
+.left a{
+    color: white;
+}
+.right{
+    display: flex;
+    width:15vw;
+    justify-content: space-evenly
+}
+.right a{
+ 
+    color:white;
+}
+
+.header2{
+    width: 100%;
+    height: 8vh;
+     background-color: white;
+    display: flex;
+    justify-content:space-between;
+   
+}
+
+.a img{height: 8vh;
+    
+}
+.a{margin-left: 2rem;
+}
+
+.header3{
+    display: flex;
+   gap:1rem;
+   margin-right: 2rem;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+   
+}
+.list li a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+}
+.bb{width: 6rem;
+height: 3rem;
+margin: auto;
+background-color: #00306e;
+color: white;
+border-radius: 9px;}
+
+
+.subul{
+    color:black;
+    /* text-align: center; */
+    background-color:rgb(255, 255, 255);
+    height:max-content;width:max-content;
+    z-index: 5;
+    
+}
+.subul li{
+    padding-top:12px;
+}
+.subul li a{
+    color:black;
+}
+.subul{
+    display: none; position: absolute;list-style: none;
+}
+.list li:hover .subul {
+    display:block;
+}
+.hvr{
+    background-color: rgb(62, 62, 105);
+   height:6vh;
+   width:8vw;
+   color:white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 6px;
+}
+
+.hvr:hover{
+    background-color: orange;
+    transition-duration: 1s;
+}
+.subul li a:hover{
+    color:red;
+}
+.whatandph{
+    /* height:300px;width:400px;background-color: red;*/
+    z-index: 7;
+    position: absolute;top:80%;left:3rem;position: fixed;
+}
+.whatsapp,.phone{
+    background-color: green;
+    font-size: 3rem;border-radius: 50%;width: 50px;height: 50px;display: flex;align-items: center;
+    justify-content: center;color:white;cursor: pointer;
+}
+.phone{
+    font-size: 2rem;background-color: blue;
+}
+
+    .aboutimg{
+        /* margin-top: 100px; */
+        height:30rem;width:100%;
+        display: flex;flex-wrap: wrap;
+        background-color:  #00306e;
+       }
+       .about1{
+        width:50vw;height: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 1.3rem;
+       margin-left: 1.5rem;
+       color: white;
+       
+       }
+       .about2{
+        width:46vw;height:30rem;
+        display: flex;
+        align-items: center;justify-content: center;
+       }
+
+
+
+.position{
+    height: 100vh;
+    width:100%;
+    margin-top: 100px;
+    position: relative;
+}
+
+
+.blue{
+   height:50vh;width:100vw;
+   background-image: url('https://www.brillicaservices.com/contactusbanner.jpg ');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 12rem;
+}
+
+  .ww{
+    width: 100%;
+    /* height: 100%; */
+    margin-top: -80px;
+    height: 50vh;
+    /* height: max-content; */
+}
+
+.centerr{
+    height: max-content;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    position: absolute; 
+    top:38%;
+    z-index: 0.5;
+    /* margin-top: -10px; */
+}
+
+
+.form{
+    height:max-content;
+    width:max-content;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow:5px 3px 4px 3px #065561;
+    display: flex;
+}
+
+
+.contact{
+    padding: 20px;
+    width:50%;
+    height: 29rem;
+    text-align: center;
+}
+
+
+.contact input {
+    padding: 20px;
+    height:2rem;
+    width:80%;
+    border:none;
+    border-bottom: 1px solid #065561;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #065561;
+}
+.contact h3{
+    font-size: 2rem;
+}
+.contact button{
+    height:3rem;
+    width:80%;
+    color: white;
+    background-color: rgb(77, 128, 77);
+    border: none;
+}
+.phon{
+    background-color:#065561;
+    color: white;
+    font-size: 1.2rem;
+    width: 50%;
+    height: 29rem;
+}
+.phon p{
+    padding-top: 2rem;
+    padding-left: 3rem;
+    
+}
+.loc{
+    height: 6vh;
+    width:100%;
+    margin-top: 4rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+.loc h2{
+    border-bottom: 2px solid #065561;
+    font-weight: 600;
+     color: #065561;
+    }
+    
+    .mmm{
+    height:40vh;
+    width:100%;
+    margin-top: 1rem;
+    color:#065561;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.firsst{
+    width:18rem;
+    height: 19rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-right: 3px solid #065561;
+    align-items: center;
+}
+
+
+.ifrm{
+    height:40vh;width:100%;margin-top: 6rem;
+}
+.ifrm  iframe{
+    height:40vh;width:100%;
+}
+
+
+footer{
+    height:75vh;
+    width:100%;
+    border:2px solid black;
+    background-color:#00306e
+}
+.upperfooter{
+    height:50vh;
+    width:100%;
+    border:1px solid gray;
+    display: flex;
+    border: none;
+}
+.footerchild{
+    width:25vw;
+    height:50vh;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+}
+.footerchild1{
+    width:25vw;
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    
+}
+.footerchild1 a{
+    height: 2rem;
+    color: white;
+    text-decoration: none;
+    font-weight: 450;
+}
+.footerchild a{
+    color:white;
+    text-decoration: none;
+}
+.footerchild h3{
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+iframe{
+    width:20vw;
+}
+.downfooter{
+    color:white;
+    text-align: center;
+    height:25vh;
+    background-color:#2e5b95;
+}
+.downfooter a{
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.last{
+    border:1px solid  gray;
+    color:white;
+    text-align: center;
+    font-size: 1.4rem;
+}
